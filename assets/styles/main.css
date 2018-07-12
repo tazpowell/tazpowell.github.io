@@ -1,10 +1,12 @@
+@import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
 body {
+  font-family: 'Work Sans', sans-serif;
   background: #0a1932;
   margin: 0;
 }
 
 h1 {
-  font-family: 'Work Sans', sans-serif;
   font-weight: 200;
   font-size: 60px;
   line-height: 54px;
@@ -13,7 +15,6 @@ h1 {
 }
 
 h2 {
-  font-family: 'Work Sans', sans-serif;
   font-weight: 200;
   font-size: 20px;
   letter-spacing: 1px;
@@ -21,13 +22,44 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #0a1932;
+  margin: 0;
+}
+
+h4 {
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #ed3b89;
+  margin: 0;
+}
+
 p {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 16px;
-  letter-spacing: 2px;
+  letter-spacing: -0.5px;
+  color: #0a1932;
+  margin-top: 20px;
+}
+
+.btn-line {
+  background-color: transparent;
+  border-color: #fff;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+.btn-line:hover {
+  border-color: #ed3b89;
   color: #ed3b89;
-  margin-top: 50px;
 }
 
 .bgimg {
@@ -37,10 +69,54 @@ p {
   margin: 0;
 }
 
-.maincontent {
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.fa {
+  color: #fff;
+  margin: 0 5px;
+}
+
+.fa:hover {
+  color: #ed3b89;
+}
+
+.link-group {
+  margin: 50px 0;
+}
+
+.main-cover {
+  padding-left: 120px;
   position: absolute;
   top: 40%;
-  left: 10%;
+  /* left: 10%; */
+}
+
+.section {
+  padding: 50px;
+}
+
+.about {
+  background-color: #fff;
+  height: 300px;
+  padding: 50px 80px 0 140px;
+}
+
+.skills {
+  background-color: #eee;
+  height: 300px;
+}
+
+.projects {
+  background-color: #eee;
+  height: 300px;
+  padding: 50px 80px 0 125px;
+}
+
+.project-each {
+  padding-left: 0;
 }
 
 @media only screen and (max-width: 500px) {

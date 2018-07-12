@@ -1,0 +1,84 @@
+// $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+
+@import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+$teal: #3fdac2;
+$magenta: #ed3b89;
+$navy: #0a1932;
+$white: #fff;
+
+body {
+  background: $navy;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 60px;
+  line-height: 54px;
+  color: $teal;
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: $teal;
+  margin: 0;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: $magenta;
+  margin-top: 50px;
+}
+
+.about {
+  background-color: $white;
+}
+
+.btn-line {
+  background-color: transparent;
+  border-color: $teal;
+  border-radius: 2px;
+  color: $teal;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+.bgimg {
+  height: 100vh;
+  background-image: url(../images/bg_wdog.png);
+  background-size: cover;
+  margin: 0;
+}
+
+.link-group {
+  margin: 20px 0;
+}
+
+.maincontent {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+@media only screen and (max-width: 500px) {
+  .bgimg {
+    background-image: url(../images/bg_mobile.png);
+    margin: 0;
+  }
+
+  .maincontent {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+  }
+}
