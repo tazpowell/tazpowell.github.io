@@ -26,15 +26,15 @@ h3 {
   font-weight: 400;
   font-size: 20px;
   letter-spacing: 2px;
-  color: #0a1932;
+  color: #3fdac2;
   margin: 0 0 20px 0;
 }
 
 h4 {
   font-weight: 200;
-  font-size: 20px;
+  font-size: 24px;
   letter-spacing: 1px;
-  color: #ed3b89;
+  color: #fff;
   margin: 0;
   padding-top: 20px;
 }
@@ -72,6 +72,8 @@ p {
 }
 
 .container-fluid {
+  background-color: #0a1932;
+  max-width: 1200px;
   padding-left: 0;
   padding-right: 0;
 }
@@ -85,6 +87,12 @@ p {
   color: #ed3b89;
 }
 
+.h3-centered {
+  margin-top: 20px;
+  text-align: center;
+  color: #3fdac2;
+}
+
 .link-group {
   margin: 50px 0;
 }
@@ -93,7 +101,14 @@ p {
   padding-left: 120px;
   position: absolute;
   top: 40%;
-  /* left: 10%; */
+}
+
+.intro {
+  margin: -50px 90px 50px 90px;
+}
+
+.project-row {
+  margin: 50px 90px 50px 90px;
 }
 
 .section {
@@ -102,13 +117,12 @@ p {
 
 .about {
   background-color: #fff;
-  height: 300px;
-  padding: 50px 50px 0 140px;
+  height: 320px;
 }
 
 .skills {
   background-color: #fff;
-  height: 300px;
+  height: 320px;
 }
 
 .skills-ul {
@@ -123,13 +137,81 @@ p {
 }
 
 .projects {
-  background-color: #eee;
-  height: 300px;
-  padding: 50px 80px 0 125px;
+  padding-top: 0;
+}
+
+.project-body {
+  color: #fff;
+  margin-top: 10px;
 }
 
 .project-each {
-  padding-left: 0;
+  margin: 0 90px 0 90px;
+}
+
+.project-info-right {
+  margin-top: 30px;
+  margin-left: 260px;
+  padding: 0 0 0 60px;
+  vertical-align: middle;
+}
+
+.project-info-left {
+  margin-top: 30px;
+  padding: 0 0 0 60px;
+  vertical-align: middle;
+}
+
+.project-links {
+  color: #ed3b89;
+  font-size: 13px;
+}
+
+.project-links a {
+  color: #ed3b89;
+}
+
+.project-links a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.project-image-left {
+  position: absolute;
+  left: -175px;
+  width: 460px;
+  height: 313px;
+}
+
+.project-image-left img {
+  max-width: 100%;
+}
+
+.project-image-right {
+  position: absolute;
+  right: -175px;
+  width: 460px;
+  height: 313px;
+}
+
+.project-image-right img {
+  max-width: 100%;
+}
+
+.project-outline-right {
+  border-color: #ed3b89;
+  border-style: solid;
+  border-width: 1px;
+  padding-top: 45px;
+  height: 380px;
+}
+
+.project-techs {
+  color: #ed3b89;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 5px;
 }
 
 @media only screen and (max-width: 500px) {
