@@ -186,6 +186,40 @@ p {
   background-color: #31c2ab;
 }
 
+.sidebar {
+  background-image: url(../images/sidebar_bg.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 0 30px;
+}
+
+.sidebar-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sidebar-links {
+  color: #31c2ab;
+}
+
+.sidebar-links a {
+  color: #31c2ab;
+}
+
+.sidebar-links a:hover {
+  color: #0a1932;
+}
+
+.project-page {
+  min-height: 100vh;
+}
+
+.c-travelbox {
+  background-color: #4dcf87;
+}
+
 @media screen and (max-width: 992px) {
   .bgimg {
     background-image: url(../images/bg_0723_mobile.png);
