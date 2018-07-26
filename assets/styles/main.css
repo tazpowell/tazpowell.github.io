@@ -83,6 +83,11 @@ a:hover {
   position: fixed;
 }
 
+.bio-pic {
+  height: 120px;
+  margin: 0 20px 0 0;
+}
+
 .fa {
   color: #0a1932;
   margin: 0 5px;
@@ -99,11 +104,12 @@ a:hover {
 }
 
 .link-group {
-  margin: 50px 0 0 -2px;
+  margin: 40px 0 0 -2px;
 }
 
 .main-cover {
-  width: 30vw;
+  display: flex;
+  width: 40vw;
   padding-left: 5vw;
   position: absolute;
   top: 30%;
@@ -121,8 +127,12 @@ a:hover {
 
 .project-box {
   height: 320px;
-  padding: 60px 60px 60px 60px;
+  padding: 40px 60px 60px 60px;
   margin-top: 0;
+}
+
+.project-page-link a:hover {
+  color: #fff;
 }
 
 .section {
@@ -269,5 +279,24 @@ a:hover {
 @media screen and (max-width: 768px) {
   .bgimg {
     background-position: bottom;
+  }
+
+  .bio-pic {
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .link-group {
+    margin-top: 20px;
+  }
+
+  .main-cover {
+    display: block;
+    padding-left: 20px;
+    top: 10%;
+  }
+
+  .project-box {
+    padding: 35px;
   }
 }
