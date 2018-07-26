@@ -50,6 +50,15 @@ p {
   margin-top: 20px;
 }
 
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #3fdac2;
+  text-decoration: none;
+}
+
 .btn-line {
   background-color: transparent;
   border-color: #0a1932;
@@ -193,6 +202,7 @@ p {
   background-repeat: no-repeat;
   height: 100vh;
   padding: 0 30px;
+  position: fixed;
 }
 
 .sidebar-title {
@@ -213,7 +223,16 @@ p {
 }
 
 .project-page {
+  float: right;
   min-height: 100vh;
+  text-align: center;
+  padding: 60px 0 0 0;
+}
+
+.project-page-image {
+  width: 55vw;
+  display: inline-block;
+  margin: 0 0 60px 0;
 }
 
 .c-travelbox {
@@ -233,6 +252,17 @@ p {
     width: 70vw;
     padding-left: 45px;
     top: 30%;
+  }
+
+  .sidebar {
+    background-image: none;
+    height: auto;
+    margin: 0 0 60px 0;
+    position: relative;
+  }
+
+  .project-page-image {
+    width: 85vw;
   }
 }
 
