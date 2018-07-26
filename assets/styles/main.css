@@ -141,7 +141,12 @@ a:hover {
 
 .about {
   background-color: #0a1932;
+  background-image: url(../images/about_hexagons.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 120px;
   color: #fff;
+  padding-top: 60px;
 }
 
 .about-copy {
@@ -149,7 +154,7 @@ a:hover {
   font-size: 22px;
   font-weight: 200;
   line-height: 30px;
-  margin: 0 0 30px 0;
+  margin: 0 30px 30px 0;
   letter-spacing: normal;
 }
 
@@ -250,6 +255,10 @@ a:hover {
 }
 
 @media screen and (max-width: 992px) {
+  .about-copy {
+    margin-right: 100px;
+  }
+
   .bgimg {
     background-image: url(../images/bg_0723_mobile.png);
     background-position: bottom;
@@ -277,6 +286,10 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
+  .about-copy {
+    margin-top: 10px;
+  }
+
   .bgimg {
     background-position: bottom;
   }
@@ -297,6 +310,10 @@ a:hover {
   }
 
   .project-box {
-    padding: 35px;
+    padding: 20px 35px 35px 35px;
+  }
+
+  .skills-ul {
+    height: 150px;
   }
 }
