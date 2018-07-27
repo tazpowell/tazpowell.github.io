@@ -254,6 +254,10 @@ a:hover {
   background-color: #4dcf87;
 }
 
+.c-tictactoe {
+  background-color: #85dcce;
+}
+
 @media screen and (max-width: 992px) {
   .about-copy {
     margin-right: 100px;
