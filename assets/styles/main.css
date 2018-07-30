@@ -286,6 +286,10 @@ a:hover {
   background-color: #85dcce;
 }
 
+.c-duckcloud {
+  background-color: #e6dc65;
+}
+
 @media screen and (max-width: 992px) {
   .about-copy {
     margin-right: 100px;
