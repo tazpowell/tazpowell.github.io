@@ -127,7 +127,7 @@ a:hover {
 
 .project-box {
   height: 320px;
-  padding: 30px 60px 60px 60px;
+  padding: 50px 60px 60px 60px;
   margin-top: 0;
 }
 
@@ -238,6 +238,42 @@ a:hover {
   background-position: bottom right;
 }
 
+.p-atlantic {
+  background-color: #73bef2;
+  background-image: url(../images/main_atlantic_bg.png);
+}
+
+.p-atlantic:hover {
+  background-position: bottom right;
+}
+
+.p-wyders {
+  background-color: #acdf83;
+  background-image: url(../images/main_wyders_bg.png);
+}
+
+.p-wyders:hover {
+  background-position: bottom right;
+}
+
+.p-fun {
+  background-color: #535250;
+  background-image: url(../images/main_shiba_bg.png);
+  background-size: 320px;
+}
+
+.p-fun:hover {
+  background-position: bottom right;
+}
+
+.p-fun p {
+  color: #fff;
+}
+
+.p-fun h4 {
+  color: #fff;
+}
+
 .sidebar {
   background-image: url(../images/sidebar_bg.png);
   background-position: bottom;
@@ -276,6 +312,14 @@ a:hover {
   width: 55vw;
   display: inline-block;
   margin: 0 0 60px 0;
+  box-shadow: 0 5px 15px #4a49498a;
+}
+
+.project-page-illus {
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 20px;
 }
 
 .c-travelbox {
@@ -290,6 +334,28 @@ a:hover {
   background-color: #e6dc65;
 }
 
+.c-atlantic {
+  background-color: #73bef2;
+}
+
+.c-wyders {
+  background-color: #acdf83;
+}
+
+.c-illustration {
+  background-color: #f1f1f1;
+  min-height: -webkit-fill-available;
+  padding-top: 0;
+}
+
+.b-illustration {
+  background-color: #f1f1f1;
+}
+
+.s-illustration {
+  background-color: #fff;
+}
+
 @media screen and (max-width: 992px) {
   .about-copy {
     margin-right: 100px;
@@ -299,7 +365,7 @@ a:hover {
     /* background-image: url(../images/bg_0723_mobile.png); */
     background-position: bottom;
     width: 100vw;
-    height: 50vh;
+    height: 80vh;
     position: relative;
   }
 
@@ -336,7 +402,7 @@ a:hover {
 @media screen and (max-width: 768px) {
   .project-box {
     padding: 20px 35px 35px 35px;
-    height: auto;
+    height: 280px;
   }
 
   .about {
@@ -381,5 +447,9 @@ a:hover {
 
   .skills-ul {
     height: 150px;
+  }
+
+  .p-fun {
+    background-size: 280px;
   }
 }
