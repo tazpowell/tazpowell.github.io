@@ -437,8 +437,12 @@ a:hover {
     top: 10%;
   }
 
+  .project-page {
+    float: none;
+  }
+
   .project-details {
-    width: 40vw;
+    width: 80vw;
   }
 
   .project-techs {
@@ -451,5 +455,15 @@ a:hover {
 
   .p-fun {
     background-size: 280px;
+  }
+
+  .sidebar-title-p {
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+  .s-illustration {
+    padding-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
