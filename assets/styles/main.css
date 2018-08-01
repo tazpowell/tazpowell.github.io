@@ -65,13 +65,14 @@ a:hover {
   border-radius: 2px;
   color: #0a1932;
   font-size: 12px;
+  font-weight: 400;
   letter-spacing: 1px;
   margin-right: 10px;
 }
 
 .btn-line:hover {
-  border-color: #ed3b89;
-  color: #ed3b89;
+  border-color: #3fdac2;
+  color: #3fdac2;
 }
 
 .bgimg {
@@ -94,7 +95,7 @@ a:hover {
 }
 
 .fa:hover {
-  color: #ed3b89;
+  color: #3fdac2;
 }
 
 .h3-centered {
