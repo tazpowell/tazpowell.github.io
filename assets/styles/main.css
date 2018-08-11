@@ -212,6 +212,15 @@ a:hover {
   transition: all 0.7s ease-in-out;
 }
 
+.p-umbrellatoday {
+  background-color: #313038;
+  background-image: url(../images/main_umbrellatoday_bg.png);
+}
+
+.p-umbrellatoday:hover {
+  background-position: bottom right;
+}
+
 .p-travelbox {
   background-color: #4dcf87;
   background-image: url(../images/main_travelbox_bg_02.png);
@@ -323,6 +332,10 @@ a:hover {
   padding: 20px;
 }
 
+.c-umbrellatoday {
+  background-color: #313038;
+}
+
 .c-travelbox {
   background-color: #4dcf87;
 }
@@ -355,6 +368,14 @@ a:hover {
 
 .s-illustration {
   background-color: #fff;
+}
+
+.light-text {
+  color: #fff;
+}
+
+.light-text a:hover {
+  color: #31c2ab;
 }
 
 @media screen and (max-width: 992px) {
